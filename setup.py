@@ -76,7 +76,7 @@ setup(
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Operating System :: OS Independent",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: Apache Software License",
     ],
     keywords="xgboost lightgbm gbm boosting machine-learning regression optimization progressive-optimization gpu",
     project_urls={
@@ -84,4 +84,5 @@ setup(
         "Bug Reports": "https://github.com/yourorg/simple-mlr/issues",
         "Source": "https://github.com/yourorg/simple-mlr",
     },
+
 )
