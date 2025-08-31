@@ -3,7 +3,7 @@
 **Machine Learning Made Simple**
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 SimpleMLR is a user-friendly machine learning library that makes powerful boosting algorithms easy to use. It provides XGBoost, LightGBM, and sklearn GBM through a simple, consistent interface with automatic hyperparameter optimization and beautiful visualizations.
 
