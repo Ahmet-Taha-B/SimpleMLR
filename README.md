@@ -36,26 +36,24 @@ model.quick_graph()  # Instant performance analysis!
 
 > **Note**: SimpleMLR is currently in development and not yet published to PyPI. Use the local installation method below.
 
-# First, let's install SimpleMLR directly from GitHub
-import subprocess
-import sys
+### Install from GitHub
+```bash
+pip install git+https://github.com/Ahmet-Taha-B/SimpleMLR.git
+```
 
-subprocess.check_call([
-    sys.executable, "-m", "pip", "install", 
-    "git+https://github.com/Ahmet-Taha-B/SimpleMLR.git"
-])
-
+### Import Components
+```python
 from simple_mlr import (
     # Basic regressors - simple fit/predict interface
     XGBRegressor, LGBMRegressor, GBMRegressor,
-        
+    
     # Auto-tuners - automatically find best parameters
     xgb_auto, lgbm_auto, gbm_auto,
-        
+    
     # Convenience functions
     xgb_regressor, lgbm_regressor, gbm_regressor
-    )
-
+)
+```
 ### Dependencies
 SimpleMLR automatically installs all required dependencies:
 - Python 3.8+
