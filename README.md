@@ -37,8 +37,13 @@ model.quick_graph()  # Instant performance analysis!
 > **Note**: SimpleMLR is currently in development and not yet published to PyPI. Use the local installation method below.
 
 ### Install from GitHub
-```bash
-pip install git+https://github.com/Ahmet-Taha-B/SimpleMLR.git
+```python
+import subprocess
+import sys
+subprocess.check_call([
+    sys.executable, "-m", "pip", "install", 
+    "git+https://github.com/Ahmet-Taha-B/SimpleMLR.git"
+])
 ```
 
 ### Import Components
